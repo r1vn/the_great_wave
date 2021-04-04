@@ -1,0 +1,20 @@
+$regular: 500;
+$bold: 700;
+$h1size: 3rem;
+$h2size: 2rem;
+$h1weight: $bold;
+
+$black: #222;
+$twhite: #FFFFF0;
+$gray: #747474;
+//$tblack: rgba(0, 0, 0, 0.65);
+//$tblack: rgba(0, 0, 0, 0.75);
+//$tblack: rgba(34, 34, 34, 0.85);
+$tblack: rgba(0, 0, 0, 0.85);
+$twhite: rgba(255, 255, 255, 0.9);
+$tgray: rgba(173, 173, 173, 0.3);
+
+$mobile:  "only screen and (max-width: 1279px)";
+$desktop: "only screen and (min-width: 1280px)";
+
+$mobileTopMargin: 0px;

@@ -1,0 +1,21 @@
+.article img {
+  width: 100%;
+  padding: 3px; }
+
+@media only screen and (max-width: 1279px) {
+  .article {
+    padding-top: 0px; } }
+
+.article .aimg {
+  display: block;
+  width: 100%; }
+
+.article .aimg img {
+  display: block;
+  width: 100%;
+  border-left: 3px solid rgba(0, 0, 0, 0.85);
+  border-right: 3px solid #222;
+  border-top: 3px solid #222; }
+
+.article .textblock {
+  background: rgba(0, 0, 0, 0.85); }

@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1280px) {
+  .sideright {
+    position: fixed;
+    left: calc(50% + 330px);
+    top: 70px;
+    width: 300px;
+    height: calc(100vh - 70px - 10px);
+    overflow-y: scroll;
+    overflow-x: hidden; } }
+
+@media only screen and (max-width: 1279px) {
+  .sideright {
+    order: 3;
+    width: calc(100% - 20px);
+    max-width: 640px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 0; } }

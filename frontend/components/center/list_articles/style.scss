@@ -1,0 +1,72 @@
+@import "../../../var.scss";
+
+.list_articles
+{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.list
+{
+    background: $tblack;
+}
+
+.list_articles .alink
+{
+    display: block;
+
+    &:first-child
+    {
+        //margin-top: 100px;
+    }
+
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9a9a9a;
+    transition: border-bottom-color 150ms linear;
+
+    &:hover
+    {
+        border-bottom: 1px solid $twhite;
+    }
+
+    @media #{ $desktop }
+    {
+        //margin-left: 100px;
+        //margin-right: 100px;
+    }
+}
+
+.list_articles .title
+{
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.list_articles .date
+{
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px;
+    color: #909088;
+}
+
+.list_articles .aimg
+{
+    display: block;
+    width: 100%;
+}
+
+.list_articles .aimg img
+{
+    display: block;
+    width: 100%;
+
+    border-left: 3px solid $tblack;
+    border-right: 3px solid $black;
+    border-top: 3px solid $black;
+}

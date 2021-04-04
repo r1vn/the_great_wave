@@ -1,0 +1,13 @@
+.list_displays {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .list_displays .aimg {
+    display: block;
+    width: 100%; }
+    .list_displays .aimg:not(:first-child) {
+      margin-top: 10px; }
+  .list_displays .aimg img {
+    display: block;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.85); }

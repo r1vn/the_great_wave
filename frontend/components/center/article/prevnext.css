@@ -1,0 +1,54 @@
+.article .prevnext {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: flex-end;
+  margin-top: 10px; }
+  @media only screen and (max-width: 1279px) {
+    .article .prevnext {
+      width: 100%;
+      flex-flow: row wrap; } }
+
+.article .prevnext .prev,
+.article .prevnext .next {
+  background: rgba(0, 0, 0, 0.85);
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 1.25em;
+  padding: 10px; }
+  @media only screen and (max-width: 1279px) {
+    .article .prevnext .prev,
+    .article .prevnext .next {
+      width: 100%; } }
+  .article .prevnext .prev:hover,
+  .article .prevnext .next:hover {
+    transition: all 250ms linear;
+    box-shadow: inset 0px -2px 0px 0px rgba(255, 255, 255, 0.9); }
+  .article .prevnext .prev div:first-child,
+  .article .prevnext .next div:first-child {
+    color: #909088;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px; }
+  .article .prevnext .prev div:not(:first-child),
+  .article .prevnext .next div:not(:first-child) {
+    color: inherit;
+    font-size: 20px;
+    font-weight: 500; }
+
+.article .prevnext .prev {
+  margin-right: 5px;
+  text-align: left; }
+  @media only screen and (max-width: 1279px) {
+    .article .prevnext .prev {
+      margin: 0; } }
+
+.article .prevnext .next {
+  margin-left: 5px;
+  text-align: right; }
+  @media only screen and (max-width: 1279px) {
+    .article .prevnext .next {
+      margin: 0;
+      margin-top: 10px; } }

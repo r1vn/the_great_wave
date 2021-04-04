@@ -1,0 +1,10 @@
+.page {
+  background: rgba(0, 0, 0, 0.85);
+  flex-grow: 1; }
+  .page img {
+    width: 100%;
+    padding: 3px; }
+  @media only screen and (max-width: 1279px) {
+    .page {
+      padding-top: 50px;
+      padding-bottom: 50px; } }

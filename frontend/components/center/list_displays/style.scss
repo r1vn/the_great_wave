@@ -1,0 +1,28 @@
+@import "../../../var.scss";
+
+.list_displays
+{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .aimg
+    {
+        display: block;
+        width: 100%;
+
+        &:not(:first-child)
+        {
+            margin-top: 10px;
+        }
+    }
+
+    .aimg img
+    {
+        display: block;
+        width: 100%;
+
+        border: 2px solid $tblack;
+    }
+}

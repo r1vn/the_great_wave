@@ -1,0 +1,18 @@
+.center {
+  display: flex;
+  flex-flow: column nowrap; }
+  @media only screen and (min-width: 1280px) {
+    .center {
+      position: fixed;
+      top: 70px;
+      overflow-y: scroll;
+      width: 640px;
+      height: calc(100vh - 70px - 10px);
+      left: calc(50% - 320px); } }
+  @media only screen and (max-width: 1279px) {
+    .center {
+      order: 1;
+      margin: 10px auto;
+      margin-bottom: 0;
+      width: calc(100% - 20px);
+      max-width: 640px; } }

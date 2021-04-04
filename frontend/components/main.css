@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1279px) {
+  .main {
+    display: flex;
+    flex-flow: column nowrap; }
+    .main:last-child {
+      margin-bottom: 10px; } }

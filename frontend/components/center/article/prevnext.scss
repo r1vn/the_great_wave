@@ -1,0 +1,86 @@
+@import "../../../var.scss";
+
+.article
+{
+    .prevnext
+    {
+        width: 100%;
+        //height: 100px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: stretch;
+        justify-content: flex-end;
+
+        margin-top: 10px;
+
+        @media #{ $mobile }
+        {
+            width: 100%;
+            flex-flow: row wrap;
+        }
+    }
+
+    .prevnext .prev,
+    .prevnext .next
+    {
+        background: $tblack;
+        width: 50%;
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: 1.25em;
+        padding: 10px;
+
+        @media #{ $mobile }
+        {
+            width: 100%;
+        }
+
+        &:hover
+        {
+            transition: all 250ms linear;
+            box-shadow: inset 0px -2px 0px 0px rgba(255, 255, 255, 0.9);
+        }
+
+        // date
+        div:first-child
+        {
+            color: #909088;
+            font-size: 16px;
+            font-weight: 400;
+            padding-bottom: 10px;
+            //text-align: right;
+        }
+
+        // title
+        div:not(:first-child)
+        {
+            color: inherit;
+            //margin-top: auto;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+
+    .prevnext .prev
+    {
+        margin-right: 5px;
+        text-align: left;
+
+        @media #{ $mobile }
+        {
+            margin: 0;
+        }
+    }
+
+    .prevnext .next
+    {
+        margin-left: 5px;
+        text-align: right;
+
+        @media #{ $mobile }
+        {
+            margin: 0;
+            margin-top: 10px;
+        }
+    }
+}

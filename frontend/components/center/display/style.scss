@@ -1,0 +1,30 @@
+@import "../../../var.scss";
+
+.display .item
+{
+    background: $tblack;
+    margin-bottom: 10px;
+
+    a
+    {
+        display: block;
+        width: 100%;
+        border: 2px solid $tblack;
+    }
+
+    img
+    {
+        display: block;
+        width: 100%;
+    }
+
+    @media #{ $mobile }
+    {
+        margin-top: $mobileTopMargin;
+    }
+}
+
+.display .text
+{
+    background: $tblack;
+}

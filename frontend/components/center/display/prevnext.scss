@@ -1,0 +1,55 @@
+@import "../../../var.scss";
+
+.display
+{
+    .prevnext
+    {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        //align-items: flex-end;     // WDIDT?
+        //justify-content: flex-end; // WDIDT?
+
+        //position: relative;
+        //left: 0;
+        //bottom: 0;
+
+        margin-top: 10px;
+    }
+
+    .prevnext .prev,
+    .prevnext .next
+    {
+        background: $tblack;
+        transition: all 150ms linear;
+        border: 2px solid $black;
+
+        width: 50%;
+        display: block;
+
+        &:hover
+        {
+            border-bottom-color: $twhite;
+        }
+    }
+
+    .prevnext .prev
+    {
+
+    }
+
+    .prevnext .next
+    {
+
+    }
+
+    .prevnext .divider
+    {
+        width: 10px;
+    }
+
+    .prevnext img
+    {
+        width: 100%;
+    }
+}

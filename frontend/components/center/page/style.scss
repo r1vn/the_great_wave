@@ -1,0 +1,19 @@
+@import "../../../var.scss";
+
+.page
+{
+    background: $tblack;
+    flex-grow: 1;
+
+    img
+    {
+        width: 100%;
+        padding: 3px;
+    }
+
+    @media #{ $mobile }
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

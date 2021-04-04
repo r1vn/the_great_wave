@@ -1,0 +1,27 @@
+@import "../../var.scss";
+
+.sideright
+{
+    @media #{ $desktop }
+    {
+        position: fixed;
+        left: calc(50% + 330px); // 50% + 640/2 + 10
+        top: 70px;
+
+        width: 300px;
+        height: calc(100vh - 70px - 10px);
+
+        overflow-y: scroll;
+        overflow-x: hidden; // chrome bug reserved space for a horizontal scrollbar even if there isn't any god damn overflow
+    }
+
+    @media #{ $mobile }
+    {
+        order: 3;
+        width: calc(100% - 20px);
+        max-width: 640px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}

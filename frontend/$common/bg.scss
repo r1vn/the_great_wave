@@ -1,0 +1,36 @@
+@import '../var.scss';
+
+.bg-0
+{
+  z-index: -3;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+
+  @media #{$mobile}
+  {
+    background-image: url('bg-3-s.jpg');
+    background-size: cover;
+  }
+
+  @media #{$desktop}
+  {
+    background-image: url('bg-3-d.jpg');
+    background-size: cover;
+  }
+}
+
+.bg-1
+{
+  z-index: -2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('grid2.png');
+  background-repeat: repeat;
+}
+

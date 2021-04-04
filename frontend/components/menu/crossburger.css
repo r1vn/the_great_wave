@@ -1,0 +1,11 @@
+.crossburger-menu {
+  z-index: 999;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  height: 32px;
+  width: 32px;
+  background-image: url("burger.png");
+  background-size: cover; }
+  .crossburger-menu.cross {
+    background-image: url("cross.png"); }

@@ -1,0 +1,103 @@
+@import "../../../var.scss";
+
+.recent-displays
+{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.recent-displays-link
+{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: 2px solid $tblack;
+
+    &:not(:first-child)
+    {
+        margin-top: 10px;
+    }
+
+    @media #{ $desktop }
+    {
+        //opacity: 75%;
+        //transition: opacity 250ms linear;
+
+        &:hover
+        {
+            //opacity: 100%;
+
+            .recent-displays-overlay
+            {
+                right: 0;
+            }
+        }
+
+        &.active
+        {
+            //opacity: 100%;
+
+            .recent-displays-overlay
+            {
+                right: 0;
+            }
+        }
+    }
+}
+
+.recent-displays-img
+{
+    display: block;
+    width: 100%;
+}
+
+.recent-displays-overlay
+{
+    position: absolute;
+    transition: all 250ms linear;
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: inset 0px -1px 0px 0px $twhite;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    //font-weight: bold;
+    text-align: left;
+
+    @media #{ $desktop }
+    {
+        right: -100%;
+    }
+
+    @media #{ $mobile }
+    {
+        right: 0;
+    }
+}
+
+
+.recent-displays-more
+{
+    width: 100%;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    background: $tblack;
+    color: $twhite;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 10px;
+
+    &:hover
+    {
+        transition: all 250ms linear;
+        box-shadow: inset 0px -2px 0px 0px $twhite;
+    }
+
+    @media #{ $mobile }
+    {
+        //margin-bottom: 10px;
+    }
+}

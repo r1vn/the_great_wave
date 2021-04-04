@@ -1,0 +1,24 @@
+.list_articles .prevnext {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 10px; }
+
+.list_articles .prevnext .prev,
+.list_articles .prevnext .next {
+  background: rgba(0, 0, 0, 0.85);
+  width: 50%;
+  display: block;
+  font-size: 3em;
+  padding: 10px;
+  text-align: center; }
+  .list_articles .prevnext .prev:hover,
+  .list_articles .prevnext .next:hover {
+    transition: all 250ms linear;
+    box-shadow: inset 0px -2px 0px 0px rgba(255, 255, 255, 0.9); }
+
+.list_articles .prevnext .prev {
+  margin-right: 5px; }
+
+.list_articles .prevnext .next {
+  margin-left: 5px; }

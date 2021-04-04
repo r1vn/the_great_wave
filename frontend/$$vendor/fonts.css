@@ -1,0 +1,50 @@
+/* lora-regular - latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: url("lora-v15-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("lora-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("lora-v15-latin-regular.woff2") format("woff2"), url("lora-v15-latin-regular.woff") format("woff"), url("lora-v15-latin-regular.ttf") format("truetype"), url("lora-v15-latin-regular.svg#Lora") format("svg");
+  /* Legacy iOS */ }
+
+/* lora-600 - latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  src: url("lora-v15-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("lora-v15-latin-600.eot?#iefix") format("embedded-opentype"), url("lora-v15-latin-600.woff2") format("woff2"), url("lora-v15-latin-600.woff") format("woff"), url("lora-v15-latin-600.ttf") format("truetype"), url("lora-v15-latin-600.svg#Lora") format("svg");
+  /* Legacy iOS */ }
+
+/* lora-700 - latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: url("lora-v15-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("lora-v15-latin-700.eot?#iefix") format("embedded-opentype"), url("lora-v15-latin-700.woff2") format("woff2"), url("lora-v15-latin-700.woff") format("woff"), url("lora-v15-latin-700.ttf") format("truetype"), url("lora-v15-latin-700.svg#Lora") format("svg");
+  /* Legacy iOS */ }
+
+/* lora-500 - latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  src: url("lora-v15-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("lora-v15-latin-500.eot?#iefix") format("embedded-opentype"), url("lora-v15-latin-500.woff2") format("woff2"), url("lora-v15-latin-500.woff") format("woff"), url("lora-v15-latin-500.ttf") format("truetype"), url("lora-v15-latin-500.svg#Lora") format("svg");
+  /* Legacy iOS */ }
+
+html {
+  font-family: "Lora", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-variant-ligatures: none;
+  font-variant-ligatures: none; }
+
+@font-face {
+  font-display: auto; }

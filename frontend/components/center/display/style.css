@@ -1,0 +1,16 @@
+.display .item {
+  background: rgba(0, 0, 0, 0.85);
+  margin-bottom: 10px; }
+  .display .item a {
+    display: block;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.85); }
+  .display .item img {
+    display: block;
+    width: 100%; }
+  @media only screen and (max-width: 1279px) {
+    .display .item {
+      margin-top: 0px; } }
+
+.display .text {
+  background: rgba(0, 0, 0, 0.85); }

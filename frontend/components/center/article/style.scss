@@ -1,0 +1,36 @@
+@import "../../../var.scss";
+
+.article
+{
+    img
+    {
+        width: 100%;
+        padding: 3px;
+    }
+
+    @media #{ $mobile }
+    {
+        padding-top: $mobileTopMargin;
+    }
+}
+
+.article .aimg
+{
+    display: block;
+    width: 100%;
+}
+
+.article .aimg img
+{
+    display: block;
+    width: 100%;
+
+    border-left: 3px solid $tblack;
+    border-right: 3px solid $black;
+    border-top: 3px solid $black;
+}
+
+.article .textblock
+{
+    background: $tblack;
+}

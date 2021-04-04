@@ -1,0 +1,27 @@
+@import "../../var.scss";
+
+.center
+{
+  display: flex;
+  flex-flow: column nowrap;
+
+  @media #{ $desktop }
+  {
+    position: fixed;
+    top: 70px;
+    overflow-y: scroll;
+    width: 640px;
+    height: calc(100vh - 70px - 10px);
+    left: calc(50% - 320px);
+  }
+
+  @media #{ $mobile }
+  {
+    order: 1;
+    margin: 10px auto;
+    margin-bottom: 0;
+    //height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    max-width: 640px;
+  }
+}

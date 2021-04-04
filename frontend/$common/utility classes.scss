@@ -1,0 +1,27 @@
+@import "../var.scss";
+
+.displaynone
+{
+  display: none;
+}
+
+.invisible
+{
+  visibility: hidden !important;
+}
+
+.displaynone-m
+{
+  @media #{$mobile}
+  {
+    display: none !important;
+  }
+}
+
+.displaynone-d
+{
+  @media #{$desktop}
+  {
+    display: none !important;
+  }
+}

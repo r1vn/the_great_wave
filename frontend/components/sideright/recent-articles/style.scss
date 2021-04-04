@@ -1,0 +1,79 @@
+@import "../../../var.scss";
+
+// container
+.recent-articles
+{
+
+}
+
+// item
+.recent-articles > a:not(:last-child)
+{
+    display: flex;
+    flex-flow: column nowrap;
+
+    padding: 10px;
+    text-align: left;
+    background: $tblack;
+    color: $twhite;
+    transition: background 250ms linear, color 100ms linear, box-shadow 500ms linear;
+
+    &:not(:first-child)
+    {
+        margin-top: 10px;
+    }
+
+    &:hover
+    {
+        //background: $twhite;
+        //background: unset;
+        box-shadow: inset 0px -250px 0px 0px white;
+        color: $tblack;
+    }
+
+    &.active
+    {
+        background: white;
+        color: $tblack;
+    }
+}
+
+// date
+.recent-articles a > div:first-child
+{
+    color: #909088;
+    font-size: 16px;
+    font-weight: 400;
+    //text-align: right;
+}
+
+// title
+.recent-articles a > div:not(:first-child)
+{
+    color: inherit;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+//
+
+.recent-articles-more
+{
+    width: 100%;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    background: $tblack;
+    color: $twhite;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 10px;
+
+    &:hover
+    {
+        transition: all 250ms linear;
+        box-shadow: inset 0px -2px 0px 0px $twhite;
+    }
+}

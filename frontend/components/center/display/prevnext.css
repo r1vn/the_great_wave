@@ -1,0 +1,22 @@
+.display .prevnext {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 10px; }
+
+.display .prevnext .prev,
+.display .prevnext .next {
+  background: rgba(0, 0, 0, 0.85);
+  transition: all 150ms linear;
+  border: 2px solid #222;
+  width: 50%;
+  display: block; }
+  .display .prevnext .prev:hover,
+  .display .prevnext .next:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.9); }
+
+.display .prevnext .divider {
+  width: 10px; }
+
+.display .prevnext img {
+  width: 100%; }

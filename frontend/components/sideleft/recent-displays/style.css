@@ -1,0 +1,53 @@
+.recent-displays {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%; }
+
+.recent-displays-link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.85); }
+  .recent-displays-link:not(:first-child) {
+    margin-top: 10px; }
+  @media only screen and (min-width: 1280px) {
+    .recent-displays-link:hover .recent-displays-overlay {
+      right: 0; }
+    .recent-displays-link.active .recent-displays-overlay {
+      right: 0; } }
+
+.recent-displays-img {
+  display: block;
+  width: 100%; }
+
+.recent-displays-overlay {
+  position: absolute;
+  transition: all 250ms linear;
+  background-color: rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0px -1px 0px 0px rgba(255, 255, 255, 0.9);
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: left; }
+  @media only screen and (min-width: 1280px) {
+    .recent-displays-overlay {
+      right: -100%; } }
+  @media only screen and (max-width: 1279px) {
+    .recent-displays-overlay {
+      right: 0; } }
+
+.recent-displays-more {
+  width: 100%;
+  height: 50px;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.85);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 10px; }
+  .recent-displays-more:hover {
+    transition: all 250ms linear;
+    box-shadow: inset 0px -2px 0px 0px rgba(255, 255, 255, 0.9); }

@@ -1,0 +1,20 @@
+@import "../var.scss";
+
+*
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  color: $twhite;
+}
+
+img
+{
+  display: block;
+}

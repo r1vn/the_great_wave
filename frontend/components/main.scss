@@ -1,0 +1,15 @@
+@import "../var.scss";
+
+.main
+{
+    @media #{ $mobile }
+    {
+        display: flex;
+        flex-flow: column nowrap;
+
+        &:last-child
+        {
+            margin-bottom: 10px;
+        }
+    }
+}
